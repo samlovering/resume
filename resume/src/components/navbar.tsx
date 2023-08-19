@@ -1,20 +1,32 @@
 import React from "react";
-import {Navbar} from "react-bootstrap";
+import {Col, Nav, Navbar} from "react-bootstrap";
 import "./navbar.css";
-import { JL } from "jsnlog";
+
+
+/**
+ * TODO:
+ * Needs a little beautifying
+ * Logo?
+ * Make floating on scroll
+ * properly link.
+ * lightmode/darkmode color schemes
+*/
 
 export default class NavBar extends React.Component<any, any>{
     render(){
         return(
         <Navbar id="navbar">
-            <div className="navbar-item-left">
-            <a href="#home">Samuel Lovering</a></div>
-            <div className="navbar-item-right">
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#experience">Experience</a>
-                <a href="#contact">Contact</a>
-            </div>
+            <Nav className="container-fluid">
+                <Nav.Item>
+                    <Navbar.Brand href="/">SL</Navbar.Brand>
+                </Nav.Item>
+            </Nav>
+            <Nav className="ml-auto">
+                <Nav.Item className="navbar-item-right"><Nav.Link href="#about">About</Nav.Link></Nav.Item>
+                <Nav.Item className="navbar-item-right"><Nav.Link href="#skills">Skills</Nav.Link></Nav.Item>
+                <Nav.Item className="navbar-item-right"><Nav.Link href="#experience">Experience</Nav.Link></Nav.Item>
+                <Nav.Item className="navbar-item-right"><Nav.Link href="#contact">Contact</Nav.Link></Nav.Item>
+            </Nav>
         </Navbar>
         )
     }

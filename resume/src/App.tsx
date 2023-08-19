@@ -9,6 +9,8 @@ import Experience from './components/pages/experience';
 import Contact from './components/pages/contact';
 import Footer from './components/pages/footer';
 
+//Use 800020 in for color pallete https://m2.material.io/inline-tools/color/ 
+
 function App() {
   return (
   <div>
