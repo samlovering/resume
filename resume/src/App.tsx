@@ -13,7 +13,7 @@ import Footer from './components/pages/footer';
 
 function App() {
   return (
-  <div>
+  <div id="home">
     <NavBar />
     <LandingPage />
     <About />

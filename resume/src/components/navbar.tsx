@@ -7,18 +7,16 @@ import "./navbar.css";
  * TODO:
  * Needs a little beautifying
  * Logo?
- * Make floating on scroll
- * properly link.
  * lightmode/darkmode color schemes
 */
 
 export default class NavBar extends React.Component<any, any>{
     render(){
         return(
-        <Navbar id="navbar">
+        <Navbar id="navbar" sticky="top">
             <Nav className="container-fluid">
                 <Nav.Item>
-                    <Navbar.Brand href="/">SL</Navbar.Brand>
+                    <Navbar.Brand href="#home">SL</Navbar.Brand>
                 </Nav.Item>
             </Nav>
             <Nav className="ml-auto">
