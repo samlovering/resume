@@ -14,3 +14,23 @@
   .col{
     width: 100%;
   }
+  .intro-card{
+    background-color: transparent;
+  }
+  
+  .card-title{
+    margin:40% 0% 0% 20%;
+    color:white;
+  }
+  .card-text{
+    margin: 0% 0% 0% 20%;
+    color:white;
+  }
+  .icon-buttons{
+    justify-content: center;
+  }
+  .landingpage-icon{
+    padding: 2px;
+    color: gray;
+    text-align: center;
+  }
