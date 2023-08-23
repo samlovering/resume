@@ -8,7 +8,7 @@ export default class LandingPage extends React.Component<any, any>{
     
     render(){
         return(
-        <Container id="landingpage" className="main-content">
+        <Container id="landingpage" className="landingpage">
         <Row>
             <Col md={6}>
                 <Card className="intro-card mt-2">
@@ -28,8 +28,8 @@ export default class LandingPage extends React.Component<any, any>{
                 </Card>
             </Col>
             <Col md={6}>
-                <Card className="picture mt-2" bg="dark">
-                    <Image src="logo512.png" roundedCircle />
+                <Card className="picture mt-4">
+                    <Image src="headshot.jpg" roundedCircle/>
                 </Card>
             </Col>
         </Row>

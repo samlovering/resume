@@ -1,21 +1,36 @@
-.main-content{
-    display: flex;
+.landingpage{
     height: 100vh;
-    width: auto;
     background-color: black;
     color:white;
+    overflow: hidden;
   }
   .container{
+    display: flex ;
     max-width: 100%;
+    justify-content: center;
   }
   .row{
-    width: 100%
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
   }
   .col{
-    width: 100%;
+    display: flex;
+ 
   }
+  .card{
+    display: flex;
+  }
+
   .intro-card{
     background-color: transparent;
+    height: auto;
+  }
+
+  .picture{
+    background-color: transparent;
+    width: 70%;
+    height: auto;
   }
   
   .card-title{
@@ -27,7 +42,8 @@
     color:white;
   }
   .icon-buttons{
-    justify-content: center;
+    justify-content: left;
+    width: 20%;
   }
   .landingpage-icon{
     padding: 2px;
