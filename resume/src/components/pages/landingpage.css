@@ -1,5 +1,5 @@
 .landingpage{
-    height: 100vh;
+    height: 100vh - var(--navHeight);
     background-color: black;
     color:white;
     overflow: hidden;

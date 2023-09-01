@@ -20,7 +20,7 @@ export default class LandingPage extends React.Component<any, any>{
                             <Col md={1}>
                             <a className='landingpage-icon' href='https://github.com/samlovering'><GitHubIcon/></a>
                             </Col>
-                            <Col md={1}>
+                            <Col md={1} className="ml-3">
                             <a className='landingpage-icon' href='https://www.linkedin.com/in/samuellovering/'><LinkedInIcon/></a>
                             </Col>
                         </Row>
