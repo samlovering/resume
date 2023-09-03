@@ -16,7 +16,7 @@ export default class NavBar extends React.Component<any, any>{
         <Navbar id="navbar" sticky="top">
             <Nav className="container-fluid">
                 <Nav.Item>
-                    <Navbar.Brand href="#home">SL</Navbar.Brand>
+                    <Navbar.Brand href="#top">SL</Navbar.Brand>
                 </Nav.Item>
             </Nav>
             <Nav className="ml-auto">

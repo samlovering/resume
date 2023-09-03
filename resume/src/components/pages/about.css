@@ -3,3 +3,15 @@
     background-color: black;
     color:white;
   }
+
+.about-card{
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+}
+
+.card-text{
+  text-align: left;
+  margin-right: 20%;
+  margin-left: 20%;
+}

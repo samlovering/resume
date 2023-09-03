@@ -5,21 +5,22 @@ import "./about.css"
 export default class About extends React.Component<any, any>{
     render(){
         return(
-            <div id="about" className="about">
-            <Container> About Me!
+            <Container id="about" className="about">
             <Row>
-                <Card>
+                <Col>
+                <Card className="about-card">
                     <Card.Body>
                     <Card.Title>About Me</Card.Title>
-                    <Card.Text>
-                        Hi, I'm [Your Name]. I am a passionate web developer with a strong background in front-end development. I love creating beautiful and interactive web applications that provide great user experiences.
+                    <Card.Text className="card-text">
+                      I am a computer engineering and music student at Montana State University. 
+                      I am passionate about all things computers. Through school and self learning I have gained knowledge ranging from Kafka clusters to the transistor architechture of memory.
+                      When I am not at my computer, I can be found practicing my saxophone or guitar, snowboarding, or trying new food.
                     </Card.Text>
                     </Card.Body>
                 </Card>
+                </Col>
             </Row>
             </Container>
-        
-            </div>
         )
     }
 }
