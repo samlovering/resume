@@ -9,6 +9,9 @@
   height: auto;
   background-color: transparent;
 }
+.about-card-title{
+  margin-top: 20%;
+}
 
 .card-text{
   text-align: left;

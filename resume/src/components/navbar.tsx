@@ -19,9 +19,8 @@ export default class NavBar extends React.Component<any, any>{
                     <Navbar.Brand href="#top">SL</Navbar.Brand>
                 </Nav.Item>
             </Nav>
-            <Nav className="ml-auto">
+            <Nav className="ml-auto">     
                 <Nav.Item className="navbar-item-right"><Nav.Link href="#about">About</Nav.Link></Nav.Item>
-                <Nav.Item className="navbar-item-right"><Nav.Link href="#skills">Skills</Nav.Link></Nav.Item>
                 <Nav.Item className="navbar-item-right"><Nav.Link href="#experience">Experience</Nav.Link></Nav.Item>
                 <Nav.Item className="navbar-item-right"><Nav.Link href="#contact">Contact</Nav.Link></Nav.Item>
             </Nav>

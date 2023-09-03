@@ -4,7 +4,7 @@ import './App.css';
 import NavBar from './components/navbar';
 import LandingPage from './components/pages/landingpage';
 import About from './components/pages/about';
-import Skills from './components/pages/skills'; 
+import Projects from './components/pages/projects'; 
 import Experience from './components/pages/experience';
 import Contact from './components/pages/contact';
 import Footer from './components/pages/footer';
@@ -17,8 +17,8 @@ function App() {
     <NavBar />
     <LandingPage />
     <About />
-    <Skills />
     <Experience />
+    <Projects />
     <Contact />
     <Footer />   
   </div>

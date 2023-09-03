@@ -10,7 +10,7 @@ export default class About extends React.Component<any, any>{
                 <Col>
                 <Card className="about-card">
                     <Card.Body>
-                    <Card.Title>About Me</Card.Title>
+                    <Card.Title className="about-card-title">About Me</Card.Title>
                     <Card.Text className="card-text">
                       I am a computer engineering and music student at Montana State University. 
                       I am passionate about all things computers. Through school and self learning I have gained knowledge ranging from Kafka clusters to the transistor architechture of memory.

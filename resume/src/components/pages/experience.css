@@ -1,0 +1,19 @@
+#experience{
+    height: 100vh;
+    background-color: black;
+    color:white;
+  }
+
+.experience-card{
+    width: 100%;
+    margin: 10% 0 0 0;
+    height: auto;
+    background-color: transparent;
+    color: white;
+    
+}
+
+.experience-card-title{
+    text-align: center;
+    margin: 0 0 0 0;
+}

@@ -12,7 +12,7 @@ export default class LandingPage extends React.Component<any, any>{
         <Row>
             <Col md={6}>
                 <Card className="intro-card mt-2">
-                    <Card.Title className="card-title"><h4>Hello, I am</h4>
+                    <Card.Title className="intro-card-title"><h4>Hello, I am</h4>
                         <h1>Samuel Lovering</h1></Card.Title>
                     <Card.Text className="card-text">
                         <h3>Full Stack Developer</h3>
